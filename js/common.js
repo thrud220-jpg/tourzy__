@@ -75,8 +75,7 @@ $(document).ready(function () {//시작
 
   // 휠 이벤트 제어
   window.addEventListener('wheel', function (e) {
-    if (window.innerWidth <= 420) {
-    }
+    
     if (!isSnapped) return; // 스냅 상태 아닐 경우 무시
     const delta = e.deltaY; // 마우스 휠이 세로 방향으로 얼마나 움직였는지 나타내는 값
 
